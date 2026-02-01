@@ -10,36 +10,36 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 1. 🧠 Semantic Search (Beyond Keywords)
+### 1. Semantic Search (Beyond Keywords)
 Search for concepts, not just filenames.
 *   **Query:** *"Cinematic close-up of a tearful eye"*
 *   **Result:** Finds the exact 3-second clip where this happens, even if the file is named `C0012.mp4`.
 
-### 2. 🎭 Emotion Intelligence (Face-Aware)
+### 2.  Emotion Intelligence (Face-Aware)
 Understand the emotional tone of your footage.
 *   **Technology:** Uses **OpenCV** to detect faces and **CLIP** (Ensemble Prompting) to classify micro-expressions.
 *   **Detected Emotions:** `Joy`, `Sadness`, `Fear`, `Anger`, `Tension`, `Neutral`.
 *   **Smart Ranking:** Searching for *"sad scene"* prioritizes shots with actual sad facial expressions over generally dark scenes.
 
-### 3. 💎 Quality Guardrails
+### 3.  Quality Guardrails
 Stop wasting time on bad takes. The system automatically extracts technical metadata:
 *   **Resolution:** Labels shots as `4K`, `1080p`, `720p`, or `480p`.
 *   **Stability:** Filters out shaky or blurry footage.
 *   **Ranking:** High-quality shots appear first in search results.
 
-### 4. ✂️ Content-Aware Scene Splitting
+### 4.  Content-Aware Scene Splitting
 *   **Granularity:** Returns the exact **cut** (e.g., `12.5s - 15.2s`) using **PySceneDetect**.
 *   **No Fixed Segments:** Clips are cut exactly where the camera cuts, preserving narrative flow.
 
-### 5. 🔒 Local & Private
+### 5.  Local & Private
 *   **100% Offline:** No video data leaves your machine. Perfect for NDA-protected workflows.
 *   **Comparison UI:** Side-by-side view of Original vs. Cleaned/Trimmed clips.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️Tech Stack
 
 *   **Core AI:** OpenAI CLIP (ViT-B/32)
 *   **Computer Vision:** OpenCV (Haar Cascades, Motion Analysis)
@@ -50,7 +50,7 @@ Stop wasting time on bad takes. The system automatically extracts technical meta
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 *   Python 3.10+
@@ -80,7 +80,7 @@ Stop wasting time on bad takes. The system automatically extracts technical meta
 
 ---
 
-## 🏃‍♂️ Usage
+##  Usage
 
 ### 1. Add Videos
 Place your `.mp4` or `.mkv` files in the `data/videos/` folder.
@@ -108,7 +108,7 @@ Try queries like:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 semantic_footage_search/
@@ -126,8 +126,8 @@ semantic_footage_search/
 └── requirements.txt
 ```
 
-## 🤝 Contribution
+##  Contribution
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+##  License
 [MIT](https://choosealicense.com/licenses/mit/)
