@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Project Data (Large Files)
+data/videos/
+data/keyframes/
+data/embeddings/
+# Keep shots.json if you want to ship a 'sample' index, but usually ignore generated data
+# We will ignore it to let users build their own index
+data/metadata/shots.json
+data/metadata/shots.json.backup
+
+# Logs
+*.log
+debug_out/
+
+# Temporary Scripts
+debug_*.py
+test_prompts.py
+check_stats.py
+verify_search_fix.py

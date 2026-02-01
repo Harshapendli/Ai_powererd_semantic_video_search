@@ -1,0 +1,29 @@
+[
+  {
+    "video_name": "61b0f5a8d8f8b222eabfc79590865430.mp4",
+    "video_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\videos\\61b0f5a8d8f8b222eabfc79590865430.mp4",
+    "scene_id": 0,
+    "start_s": 0.0,
+    "end_s": 30.0,
+    "keyframe_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\keyframes\\61b0f5a8d8f8b222eabfc79590865430\\scene_000000.jpg",
+    "keyframe_rel": "61b0f5a8d8f8b222eabfc79590865430/scene_000000.jpg"
+  },
+  {
+    "video_name": "61b0f5a8d8f8b222eabfc79590865430.mp4",
+    "video_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\videos\\61b0f5a8d8f8b222eabfc79590865430.mp4",
+    "scene_id": 1,
+    "start_s": 30.0,
+    "end_s": 38.18333333333333,
+    "keyframe_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\keyframes\\61b0f5a8d8f8b222eabfc79590865430\\scene_000001.jpg",
+    "keyframe_rel": "61b0f5a8d8f8b222eabfc79590865430/scene_000001.jpg"
+  },
+  {
+    "video_name": "sample.mp4",
+    "video_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\videos\\sample.mp4",
+    "scene_id": 0,
+    "start_s": 0.0,
+    "end_s": 10.0,
+    "keyframe_path": "C:\\Users\\harsh\\cine_hack\\semantic_footage_search\\data\\keyframes\\sample\\scene_000000.jpg",
+    "keyframe_rel": "sample/scene_000000.jpg"
+  }
+]
