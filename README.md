@@ -6,6 +6,9 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.9-yellow)
 ![CLIP](https://img.shields.io/badge/AI-OpenAI%20CLIP-purple)
 
+# 🎥 [View Live Demo / Prototype](http://localhost:8503/)
+*(Note: This link works only when the app is running locally on your machine)*
+
 **VisualMind** is a local-first, privacy-focused search engine for raw video footage. It uses multimodal AI to understand **context, emotion, and cinematography**, allowing editors to find the perfect shot in seconds without manual tagging.
 
 ---
